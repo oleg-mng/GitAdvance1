@@ -6,8 +6,12 @@ logN
 
 logging start()
 
+<<<<<<< HEAD
 lorem10
 
 ________________
 
 /////////////////
+=======
+lorem10
+>>>>>>> parent of 8b71d41 (added horizontal line)
