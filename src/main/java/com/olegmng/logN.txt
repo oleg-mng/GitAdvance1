@@ -4,7 +4,12 @@
 
 демонстрация работы reset --soft
 
+<<<<<<< Updated upstream
 
 
 git stash (WIP сохранение текущих изменений в раб папке (без коммита))
 git stash pop (авто слияние с новыми изщменениями)
+=======
+Some different changes WIP
+
+>>>>>>> Stashed changes
