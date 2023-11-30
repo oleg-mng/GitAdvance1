@@ -3,3 +3,7 @@ some logs
 log1
 ..
 logN
+
+logging start()
+
+lorem10
