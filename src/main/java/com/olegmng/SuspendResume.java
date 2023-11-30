@@ -1,7 +1,7 @@
 package com.olegmng;
 
 /**
- * приостановка и возобновление потока исполнения современным способом
+ * приостановка и возобновление потока исполнения обновленным способом способом
  */
 
 class FirstThread implements Runnable{
@@ -24,6 +24,7 @@ class FirstThread implements Runnable{
             for (int i = 15; i > 0; i--) {
                 Thread.sleep(200);
                 System.out.println(name + ": " + i);
+                //блок синхронизации потока исполнения
                 synchronized (this){
                     while (suspendFlag){
                         wait();
